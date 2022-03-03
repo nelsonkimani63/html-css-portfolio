@@ -5,57 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Nelson Guya</title>
 </head>
 
-<body>
-    <div class="header">
-        <header>
-            <nav id="navbar" class="nav">
-                <ul class="nav-list">
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                    <li>
-                        <a href="">Projects</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
-                </ul>
+<!-- START NAV -->
 
-            </nav>
-        </header>
-    </div>
-    <div class="welcome">
-        <div class="nelson">
-            <h1>Hey, I'm Nelson!</h1>
-            <p></p>
-            <div class="image"><img src="./files/prof-HHG.PNG" alt="Nelson Guya Image"></div>
-        </div>
-        <div class="my-job">
-            <p>I'm a Fullstack Software Developer and Technical Writer
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+        <li>
+            <a href="#welcome-section">About</a>
+        </li>
+        <li>
+            <a href="#projects">Work</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- END NAV -->
+
+<!-- START WELCOME SECTION -->
+
+<section id="welcome-section" class="welcome-section">
+    <h1>Hello. I am Nelson Guya</h1>
+    <p>I am a fullstack web developer and technical writer from Nairobi, KE. I use HTML/CSS and JavaScript</p>
+</section>
+
+<!-- END WELCOME SECTION -->
+
+<!-- START PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+    <h2 class="projects-section-header">Please, check some of my projects</h2>
+
+    <div class="projects-grid">
+        <a href="https://upbeat-hoover-c29593.netlify.app/" target="_blank" class="project project-tile">
+            <img class="project-image" src="./files/kanzucode-form.PNG" alt="kanzucode project" />
+            <p class="project-title">
+                <span class="code">&lt;</span> KanzuCode Foundation Form
+                <span class="code">&#47;&gt;</span>
             </p>
-        </div>
-        <section class="projects-tile">Projects</section>
+        </a>
 
     </div>
-    <div>
-        <footer>
-            <h1>Contact Me:</h1>
-            <ul>
-                <li>
-                    <a href="">Twitter</a>
-                </li>
-                <li>
-                    <a href="">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="">GitHub</a>
-                </li>
-            </ul>
+
+    <a href="https://app.netlify.com/teams/nelsonkimani63/sites" class="btn btn-show-all" target="_blank">Show all<i class="fas fa-chevron-right"></i></a>
+</section>
+
+<!-- END PROJECTS SECTION -->
+
+<!-- START CONTACT SECTION -->
+
+<section id="contact" class="contact-section">
+    <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>I am open to a discussion on how you'd like your projects done.</p>
+    </div>
+    <div class="contact-links">
+        <a href="https://www.facebook.com/nelsonkimani63" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a
+    >
+    <a
+      id="profile-link"
+      href="https://github.com/nelsonkimani63"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+    <a
+      href="https://twitter.com/nelson_guya"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-twitter"></i> Twitter</a
+    >
+    <a href="mailto:nelsonkimani63@gmail.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+    <a href="tel:+254-711-404-107" class="btn contact-details"
+      ><i class="fas fa-mobile-alt"></i> Call me</a
+    >
+  </div>
+</section>
+
+<!-- END CONTACT SECTION -->
+
+<!-- START FOOTER SECTION -->
+
+<footer>
+  <p>
+    **Nelson Guya's Portfolio.
+  </p>
+
         </footer>
-    </div>
-</body>
 
-</html>
+        <!-- END FOOTER SECTION -->
